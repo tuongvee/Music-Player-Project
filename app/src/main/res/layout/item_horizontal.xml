@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/hori_item"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@drawable/background_transparent">
+
+    <ImageView
+        android:id="@+id/hori_item_image"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:scaleType="fitCenter" />
+    
+    <TextView
+        android:id="@+id/hori_item_song"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="20dp"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/hori_item_artist"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="Artist"
+        android:textSize="20dp"
+        android:textColor="@color/white" />
+</LinearLayout>
