@@ -8,7 +8,6 @@
     android:background="@drawable/main_header_selector"
     tools:context="MainActivity">
 
-
     <FrameLayout
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
@@ -16,47 +15,12 @@
         android:layout_alignParentTop="true"/>
 
     <RelativeLayout
-        android:id="@+id/mini_play"
+        android:id="@+id/layout_mini_play"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white_2"
-        android:padding="15dp"
-        android:paddingLeft="30dp">
-
-        <ImageView
-            android:id="@+id/vert_item_image"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:background="@color/purple_200"
-            android:scaleType="fitCenter" />
-
-        <TextView
-            android:id="@+id/vert_item_song"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="80dp"
-            android:text="Name"
-            android:textColor="@color/grey"
-            android:textSize="20dp" />
-
-        <TextView
-            android:id="@+id/vert_item_artist"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="80dp"
-            android:layout_marginTop="25dp"
-            android:text="Artist"
-            android:textColor="@color/grey"
-            android:textSize="20dp" />
-
-        <ImageView
-            android:id="@+id/btn_play"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="320dp"
-            android:background="@drawable/ic_baseline_play_arrow_50"
-            android:scaleType="fitCenter" />
-    </RelativeLayout>
+        android:paddingBottom="58dp"
+        android:background="@drawable/background_transparent"
+        android:layout_alignBottom="@id/bottom_navigation"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
